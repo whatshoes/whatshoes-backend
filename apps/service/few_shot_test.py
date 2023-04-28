@@ -298,7 +298,7 @@ def find_class():
         dataiter = iter(test_dataloader)
         count = 0
         index = 0
-        arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
         for i in range(110):
             count += 1
