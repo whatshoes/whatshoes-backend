@@ -26,7 +26,7 @@ def get_test_result():
     json_data = request.get_json()
 
     img = img_dc.image_decoding(json_data) # 이미지 디코딩
-    result = few_shot_test.find_class(img) # 쿼리 이미지 넣어서 테스트 돌리기
+    result = few_shot_test.find_class() # 쿼리 이미지 넣어서 테스트 돌리기
     purl = gurl.get_product_url(result)
 
     return purl
