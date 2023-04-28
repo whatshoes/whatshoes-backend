@@ -1,5 +1,5 @@
 from flask import Blueprint
-from flask import jsonify, request
+from flask import jsonify, request, send_from_directory
 
 
 import apps.service.few_shot_test as few_shot_test
@@ -19,3 +19,17 @@ def get_test_result():
     purl = gurl.get_product_url(result)
 
     return purl
+
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@bp.route('/images/<path:path>')
+def send_image(path):
+    if allowed_file(path):
+        print(path)
+        return send_from_directory('static/images', path)
+    else:
+        return 'Invalid file type'
