@@ -10,7 +10,7 @@ bp = Blueprint(name='bp',
                        import_name=__name__,
                        url_prefix='/fsl')
 
-@bp.route('/test', methods=['GET'])
+@bp.route('/test', methods=['POST'])
 def get_test_result():
     json_data = request.get_json()
 
