@@ -98,5 +98,35 @@
     "color" : "블랙",
     "price" : "59,900",
     "url" : "https://shoopen.elandmall.co.kr/i/item?itemNo=2302809619&lowerVendNo=LV22035423"
+  },
+  "11" : {
+    "shoesclass": "11",
+    "name" : "김형국",
+    "brand" : "NIKE",
+    "productcode" : "CW2288-111p",
+    "category" : "운동화",
+    "color" : "화이트",
+    "price" : "139,000",
+    "url" : "https://www.nike.com/kr/t/%EC%97%90%EC%96%B4-%ED%8F%AC%EC%8A%A4-1-07-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-TttlGpDb/CW2288-111"
+  },
+  "12" : {
+    "shoesclass": "12",
+    "name" : "이상준",
+    "brand" : "NIKE",
+    "productcode" : "CW2288-111p",
+    "category" : "운동화",
+    "color" : "화이트",
+    "price" : "139,000",
+    "url" : "https://www.nike.com/kr/t/%EC%97%90%EC%96%B4-%ED%8F%AC%EC%8A%A4-1-07-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-TttlGpDb/CW2288-111"
+  },
+  "13" : {
+    "shoesclass": "13",
+    "name" : "조준영",
+    "brand" : "NIKE",
+    "productcode" : "CW2288-111p",
+    "category" : "운동화",
+    "color" : "화이트",
+    "price" : "139,000",
+    "url" : "https://www.nike.com/kr/t/%EC%97%90%EC%96%B4-%ED%8F%AC%EC%8A%A4-1-07-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-TttlGpDb/CW2288-111"
   }
 }
