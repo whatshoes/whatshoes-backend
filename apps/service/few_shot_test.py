@@ -135,13 +135,37 @@ def find_class():
         siamese_dataset = SiameseNetworkTestDataset(imageFolderDataset=folder_dataset_test, transform=transforms.Compose(
             [transforms.Resize((128, 64)), transforms.ToTensor()]), should_invert=False)
 
+        # 10개 클래스 매칭
+        # test_dataloader = DataLoader(siamese_dataset, num_workers=0, batch_size=1, shuffle=True)
+        # dataiter = iter(test_dataloader)
+        # count = 0
+        # index = 0
+        # arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+        # for i in range(100):
+        #     count += 1
+        #     x0, x1 = next(dataiter)
+        #     concatenated = torch.cat((x0, x1), 0)
+        #     output1, output2 = net(Variable(x0), Variable(x1))
+        #     euclidean_distance = F.pairwise_distance(output1, output2).detach().numpy()
+        #     arr[index] += euclidean_distance
+        #     if(count == 10):
+        #         count = 0
+        #         index += 1
+
+        #     print("--------------------")
+
+        # print(arr.index(min(arr)) + 1)
+        # return arr.index(min(arr)) + 1
+
+        # 13개 클래스 매칭
         test_dataloader = DataLoader(siamese_dataset, num_workers=0, batch_size=1, shuffle=True)
         dataiter = iter(test_dataloader)
         count = 0
         index = 0
-        arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-        for i in range(100):
+        for i in range(130):
             count += 1
             x0, x1 = next(dataiter)
             concatenated = torch.cat((x0, x1), 0)
