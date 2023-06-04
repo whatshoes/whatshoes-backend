@@ -129,7 +129,7 @@ def find_class():
         # print("--------------------------테스트---------------------------------")
 
         device = torch.device('cpu')
-        net.load_state_dict(torch.load('./apps/resource/model0408_3.pth', map_location=device))
+        net.load_state_dict(torch.load('./apps/resource/model0527_1.pth', map_location=device))
 
         folder_dataset_test = dset.ImageFolder(root="./apps/resource/support")
         siamese_dataset = SiameseNetworkTestDataset(imageFolderDataset=folder_dataset_test, transform=transforms.Compose(
