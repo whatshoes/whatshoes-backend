@@ -44,7 +44,7 @@
     "name" : "올드스쿨",
     "brand" : "VANS",
     "productcode" : "VN000ZDF1WX1",
-    "category" : "스니커",
+    "category" : "스니커즈",
     "color" : "블랙",
     "price" : "85,000",
     "url" : "https://www.musinsa.com/app/goods/186610"
@@ -101,32 +101,32 @@
   },
   "11" : {
     "shoesclass": "11",
-    "name" : "김형국",
-    "brand" : "NIKE",
-    "productcode" : "CW2288-111p",
-    "category" : "운동화",
-    "color" : "화이트",
-    "price" : "139,000",
-    "url" : "https://www.nike.com/kr/t/%EC%97%90%EC%96%B4-%ED%8F%AC%EC%8A%A4-1-07-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-TttlGpDb/CW2288-111"
+    "name" : "스포디노 레베카 슬리퍼",
+    "brand" : "이투컴",
+    "productcode" : "8616806-37545816",
+    "category" : "슬리퍼",
+    "color" : "브라운",
+    "price" : "7,230",
+    "url" : "https://www.coupang.com/vp/products/8616806?vendorItemId=3003500531&sourceType=MyCoupang_my_orders_list_product_title&isAddedCart="
   },
   "12" : {
     "shoesclass": "12",
-    "name" : "이상준",
-    "brand" : "NIKE",
-    "productcode" : "CW2288-111p",
+    "name" : "990v1 메이드 인 USA 블랙",
+    "brand" : "New Balence",
+    "productcode" : "M990BK1",
     "category" : "운동화",
-    "color" : "화이트",
-    "price" : "139,000",
-    "url" : "https://www.nike.com/kr/t/%EC%97%90%EC%96%B4-%ED%8F%AC%EC%8A%A4-1-07-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-TttlGpDb/CW2288-111"
+    "color" : "블랙",
+    "price" : "259,000",
+    "url" : "https://kream.co.kr/products/63060"
   },
   "13" : {
     "shoesclass": "13",
-    "name" : "조준영",
-    "brand" : "NIKE",
+    "name" : "아디다스 메시 16.4",
+    "brand" : "ADIDAS",
     "productcode" : "CW2288-111p",
-    "category" : "운동화",
-    "color" : "화이트",
-    "price" : "139,000",
-    "url" : "https://www.nike.com/kr/t/%EC%97%90%EC%96%B4-%ED%8F%AC%EC%8A%A4-1-07-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-TttlGpDb/CW2288-111"
+    "category" : "축구화",
+    "color" : "블랙",
+    "price" : "38,000",
+    "url" : "https://www.ebay.com/itm/275522158096"
   }
 }
